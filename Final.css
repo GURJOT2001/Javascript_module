@@ -1,0 +1,117 @@
+.main{
+    background-color: #8CC461;
+}
+
+.game_con{
+    display: flex;
+    margin: 10px;
+}
+
+.main_in{
+    margin: 10vh 1vw 0 20vw;
+}
+
+.main_img1{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 1%;
+    left: 22%;
+}
+
+.main_img2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 28%;
+}
+
+.main_in h1{
+    font-size: 90px;
+    color: white;
+    position: absolute;
+    bottom: 12%;
+    left: 35%;
+}
+
+.main_in h2{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+}
+.again_button{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    font-size: 15px;
+    width: 175px;
+    height: 45px;
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    bottom: 3%;
+    left: 44.5%;
+}
+
+.rules{
+    width: 300px;
+    height: 370px;
+    margin: 15% 0 0 2%;
+}
+
+.cancel{
+    height: 50px;
+    width: 50px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #FF0000;
+    color:white;
+    font-size: 35px;
+    margin: 27% 0 0 90%;
+}
+
+.rules_con{
+    background-color: #004429;
+    border: 7px solid white;
+    border-radius: 13px;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.rules_con h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.rules_con ul{
+    list-style-type: square;
+    font-size: 13px;
+    margin: 0 10px 10px -8px;
+    color: white;
+}
+
+.rules_con ul li::marker{
+    color: yellow;
+}
+
+.rules_button{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 21px;
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin: 5% 0 0 55%;
+}
+
+.hidden{
+    visibility: hidden;
+}
+

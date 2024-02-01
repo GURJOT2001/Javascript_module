@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Final.css" />
+    <title>Stone Paper Scissor</title>
+  </head>
+  <body class="main">
+    <script>
+      function openDiv() {
+        var rules = document.getElementById("rules_box");
+        rules.classList.remove("hidden");
+        var close_button = document.getElementById("rules_box1");
+        close_button.classList.remove("hidden");
+      }
+
+      function closeDiv() {
+        var rules = document.getElementById("rules_box");
+        rules.classList.add("hidden");
+        var close_button = document.getElementById("rules_box1");
+        close_button.classList.add("hidden");
+      }
+    </script>
+    <div>
+      <div class="game_con">
+        <div class="main_in">
+            <img class="main_img1" src="./images/Stars.png" alt="Stars"/>
+            <img class="main_img2" src="./images/Prize.png" alt="Prize"/>
+            <h1>HURRAY !!</h1>
+            <h2>YOU WON THE GAME</h2>
+            <button class="again_button" type="button" onclick="window.location.href = 'Main.html';">
+                Play Again
+            </button>
+        </div>
+        <div class="rules">
+          <button class="cancel" id="rules_box1" type="button" onclick="closeDiv()">
+            X
+          </button>
+          <div class="rules_con" id="rules_box">
+            <h1>Game Rules</h1>
+            <ul>
+              <li>
+                Rock beats scissors, scissors beat paper, and paper beats rock.
+              </li>
+              <li>
+                Agree ahead of time whether you’ll count off “rock, paper,
+                scissors, shoot” or just “rock, paper, scissors.”
+              </li>
+              <li>
+                Use rock, paper, scissors to settle minor decisions or simply
+                play to pass the time.
+              </li>
+              <li>
+                If both players lay down the same hand, each player lays down
+                another hand.
+              </li>
+            </ul>
+          </div>
+          <button class="rules_button" type="button" onclick="openDiv()">
+            Rules
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
